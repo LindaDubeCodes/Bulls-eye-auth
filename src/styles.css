@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:700,600|Livvic:700");
+
+:root {
+  --primary-bg-color: rgba(13, 19, 33, 1);
+  --secondary-color: rgba(29, 45, 68, 1);
+  --button-color: rgba(62, 92, 118, 1);
+  --headings-color: rgba(116, 140, 171, 1);
+  --text-color: rgba(240, 235, 216, 1);
+  --new-header: rgba(255, 255, 255, 1);
+  --button-primary: rgba(132, 169, 140, 1);
+  --heading-font-font-family: "JosefinSans-Bold", Helvetica;
+  --heading-font-font-weight: 700;
+  --heading-font-font-size: 36px;
+  --heading-font-letter-spacing: 0px;
+  --heading-font-line-height: normal;
+  --heading-font-font-style: normal;
+  --label-size-font-family: "JosefinSans-Regular", Helvetica;
+  --label-size-font-weight: 400;
+  --label-size-font-size: 16px;
+  --label-size-letter-spacing: 0px;
+  --label-size-line-height: normal;
+  --label-size-font-style: normal;
+}
